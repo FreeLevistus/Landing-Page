@@ -1,0 +1,53 @@
+html, body {
+    font-family: roboto, "sans-serif"
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+}
+
+.headerLogo {
+    flex: 3;
+    font-size: 24px;
+    color: #F9FAF8;
+    text-align: center;
+}
+
+.headerLink {
+    flex: 1;
+}
+
+.hero, header, footer {
+    background-color: #1F2937;
+}
+
+body > * {
+    padding: 20px 10vw;
+}
+
+.heroMainText {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.heroSecondaryText, .headerLink {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.quoteText {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+}
+
+button, .actionContent {
+    background-color: #3882f6;
+}
